@@ -1,0 +1,14 @@
+.keyboard-container {
+  width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyboard-container button:nth-child(11) {
+  margin-left: 30px;
+}
+
+.keyboard-container button:nth-child(20),
+.keyboard-container button:nth-child(28) {
+  width: 68px;
+}

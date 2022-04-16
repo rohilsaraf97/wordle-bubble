@@ -1,0 +1,9 @@
+.input-tiles-container {
+  width: 330px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.input-tiles-row {
+  display: flex;
+}

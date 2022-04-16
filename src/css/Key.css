@@ -1,0 +1,12 @@
+.key-container {
+  width: 43px;
+  height: 58px;
+  background-color: #818384;
+  border-radius: 4px;
+  margin: 4px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.tile-container {
+  height: 62px;
+  width: 62px;
+  border: 2px solid #3a3a3c;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.tile-container.flip {
+  animation: 0.5s linear flipping;
+}
+
+/* in 0% animation stay in pos
+in 50% animation rotate the x axis b 90
+in 100% animation bring axis back to 0 */
+@keyframes flipping {
+  0% {
+    transform: rotateX(0deg);
+  }
+  25% {
+    transform: rotateX(45deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  75% {
+    transform: rotateX(45deg);
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+
+.grey-overlay {
+  background-color: #3a3a3c !important;
+  border: none !important;
+}
+
+.yellow-overlay {
+  background-color: #b59f3a !important;
+  border: none !important;
+}
+
+.green-overlay {
+  background-color: #538d4e !important;
+  border: none !important;
+}
